@@ -1,0 +1,17 @@
+.top_section h2 {
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+.top_section h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  .top_section {
+    margin-bottom: 2rem;
+  }
+}

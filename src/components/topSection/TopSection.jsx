@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './topSection.css'
 const TopSection = ({heading5, heading2}) => {
   return (
     <div className='top_section'>
