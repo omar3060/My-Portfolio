@@ -15,7 +15,7 @@ function Home() {
 
         <div className="btns">
           <a href={CV} className='btn' download>Download CV</a>
-          <a href="#" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
 
         <div className="me">

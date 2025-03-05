@@ -1,7 +1,7 @@
-import About from "./components/about/About";
-import Contact from "./components/contact/contact";
+import Services from "./components/services/Services";
+import Contact from "./components/contact/Contact";
 import Home from "./components/home/Home";
-import Nav from "./components/nav/nav";
+import Nav from "./components/nav/Nav";
 import Projects from "./components/projects/projects";
 import Skills from "./components/skills/Skills";
 import Footer from "./components/footer/Footer";
@@ -10,8 +10,8 @@ function App() {
     <>
       <Home />
       <Nav />
-      <About />
       <Skills />
+      <Services />
       <Projects />
       <Contact />
       <Footer />
