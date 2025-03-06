@@ -20,7 +20,7 @@ const ContactData = [
     icon: <RiMessengerLine />,
     title: "Messenger",
     info: "Omar Mahmoud",
-    link: "https://m.me/omarmahmoud",
+    link: "https://www.messenger.com/t/100005699988113",
   },
   {
     id: 3,
