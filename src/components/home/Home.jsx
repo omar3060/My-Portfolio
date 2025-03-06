@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import Me from '../../assets/me.png'
+import Me from '../../assets/me.webp'
 import CV from '../../assets/cv.pdf'
 import HomeSocials from './HomeSocials'
 
@@ -19,7 +19,7 @@ function Home() {
         </div>
 
         <div className="me">
-          <img src={Me} alt="" />
+          <img src={Me} alt="My pic" />
         </div>
         <a href="#skills" className='scroll_down'>Scroll Down</a>
         <HomeSocials />

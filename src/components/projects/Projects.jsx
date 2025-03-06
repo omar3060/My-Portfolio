@@ -1,12 +1,12 @@
 import React from "react";
 import "./projects.css";
 import TopSection from "../topSection/TopSection";
-import IMG1 from "../../assets/portfolio1.png";
-import IMG2 from "../../assets/portfolio2.png";
-import IMG3 from "../../assets/portfolio3.png";
-import IMG4 from "../../assets/portfolio4.png";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.png";
+import IMG1 from "../../assets/portfolio1.webp";
+import IMG2 from "../../assets/portfolio2.webp";
+import IMG3 from "../../assets/portfolio3.webp";
+import IMG4 from "../../assets/portfolio4.webp";
+import IMG5 from "../../assets/portfolio5.webp";
+import IMG6 from "../../assets/portfolio6.webp";
 
 const portfolioData = [
   {
@@ -67,7 +67,7 @@ function Projects() {
         {portfolioData.map(({ id, image, title, desc, github, demo }) => (
           <article className="portfolio_item" key={id}>
             <div className="portfolio_item_img" key={id}>
-              <img src={image} alt={`${title}`} />
+              <img src={image} alt={`${title}`} loading="lazy"/>
               <div className="portfolio_overlay">
                 <p>{desc}</p>
               </div>

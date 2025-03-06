@@ -1,5 +1,5 @@
 .home {
-  height: 100vh;
+  height: 100%;
   padding-top: 100px;
   overflow: hidden;
 }
@@ -67,18 +67,10 @@
   .home {
     height: 100%;
   }
-  /* .home_container .me img{
-    position: absolute;
-    width: 230px;
-    height: 250px;
-    top: 18rem;
-    left: 18rem;
-  } */
 }
 @media (max-width: 600px) {
   .home {
     height: auto;
-    /* padding-top: 5rem; */
   }
   .home_socials, .scroll_down {
     display: none;
@@ -91,10 +83,4 @@
     width: 300px;
     height: 380px;
   }
-  /* .home_container .me img{
-    position: static;
-    object-fit: contain;
-    top: 0rem;
-    left: 0rem;
-  } */
 }

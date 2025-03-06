@@ -39,7 +39,6 @@ const SkillsData = [
   },
   {
     id: 5,
-
     image: ReactJS,
     title: "React",
     disc: "JS Library",
@@ -75,7 +74,7 @@ function Skills() {
         {SkillsData.map(({ id, image, title, disc }) => (
           <article className="card_skill" key={id}>
             <div className="icon">
-              <img src={image} alt={`${title} image`} />
+              <img src={image} alt={`${title} image`} loading="lazy"/>
             </div>
             <div className="contact">
               <h4>{title}</h4>
