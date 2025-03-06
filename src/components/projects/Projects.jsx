@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css";
+import "./projects.css";
 import TopSection from "../topSection/TopSection";
 import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.png";
