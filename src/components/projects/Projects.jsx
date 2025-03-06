@@ -14,7 +14,7 @@ const portfolioData = [
     image: IMG1,
     title: "React & Firebase Amazon Clone",
     desc: "ShoppingCart, PaymentMethod,  CreatingOrders, Firebase for DataBase and Authentication",
-    github: "https://github.com/project1",
+    github: "https://github.com/omar3060/Amazon-Clone",
     demo: "https://regal-phoenix-dde71b.netlify.app/",
   },
   {
