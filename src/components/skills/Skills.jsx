@@ -4,11 +4,11 @@ import TopSection from "../topSection/TopSection";
 
 import { BsPatchCheckFill } from "react-icons/bs";
 import Css from "../../assets/css3.svg";
-import Xpressjs from "../../assets/expressjs.svg";
+import NextJS from "../../assets/nextjs.svg";
 import Figma from "../../assets/figma.svg";
 import Javascript from "../../assets/javascript.svg";
-import Mongodb from "../../assets/mongodb.svg";
-import Nodejs from "../../assets/nodejs.svg";
+import Redux from "../../assets/redux.svg";
+import Bootstrap from "../../assets/bootstrap.svg";
 import ReactJS from "../../assets/react.svg";
 import Tailwind from "../../assets/tailwindcss.svg";
 
@@ -27,39 +27,43 @@ const SkillsData = [
   },
   {
     id: 3,
-    image: ReactJS,
-    title: "React",
-    disc: "Framework",
-  },
-  {
-    id: 4,
+
     image: Tailwind,
     title: "TailwindCSS",
     disc: "User Interface",
   },
   {
+    id: 4,
+    image: Bootstrap,
+    title: "Bootstrap",
+    disc: "User Interface",
+  },
+  {
     id: 5,
-    image: Nodejs,
-    title: "NodeJS",
-    disc: "Web Server",
+
+    image: ReactJS,
+    title: "React",
+    disc: "JS Library",
   },
   {
     id: 6,
-    image: Figma,
-    title: "Figma",
-    disc: "Design tool",
+
+    image: NextJS,
+    title: "NextJS",
+    disc: "React Framework",
   },
   {
     id: 7,
-    image: Xpressjs,
-    title: "ExpressJS",
-    disc: "Node Framework",
+    image: Redux,
+    title: "Redux",
+    disc: "State Management library",
   },
   {
     id: 8,
-    image: Mongodb,
-    title: "MongoDB",
-    disc: "Database",
+
+    image: Figma,
+    title: "Figma",
+    disc: "Design tool",
   },
 ];
 

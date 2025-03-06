@@ -7,24 +7,23 @@ import { IoIosRocket } from "react-icons/io";
 import { FaCode } from "react-icons/fa";
 const Services = () => {
   return (
-
     <section className="services" id="services">
       <TopSection heading2="Services" heading5="What I Offer"/>
       <div className="container services_container">
         <article className='card'>
           <MdDesignServices className='icon'/>
           <h3>Web Design</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero quae labore beatae esse? Facere.</p>
+          <p>Creating visually appealing and user-friendly web designs.</p>
         </article>
         <article className='card'>
           <IoIosRocket className='icon'/>
           <h3>Fast Performance</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero quae labore beatae esse? Facere.</p>
+          <p>Writing well-structured, scalable, maintainable, and efficient code.</p>
         </article>
         <article className='card'>
           <FaCode className='icon'/>
           <h3>Clean Code</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero quae labore beatae esse? Facere.</p>
+          <p>Writing well-structured, scalable, and maintainable code.</p>
         </article>
       </div>
     </section>

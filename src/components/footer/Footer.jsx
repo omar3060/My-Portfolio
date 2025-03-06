@@ -37,7 +37,7 @@ function Footer() {
         <a href="https://github.com/omar3060" target="_blank">
           <FaGithub />
         </a>
-        <a href="#" target="_blank">
+        <a href="https://www.facebook.com/profile.php?id=100005699988113&locale=ar_AR" target="_blank">
           <FaFacebook />
         </a>
       </div>

@@ -52,4 +52,7 @@
   .container_skills .card_skill p {
     font-size: 10px;
   }
+  section {
+    padding-top: 0rem;
+}
 }
