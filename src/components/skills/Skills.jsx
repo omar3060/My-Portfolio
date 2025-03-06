@@ -7,7 +7,7 @@ import NextJS from "../../assets/nextjs.svg";
 import Figma from "../../assets/figma.svg";
 import Javascript from "../../assets/javascript.svg";
 import Redux from "../../assets/Redux.svg";
-import Bootstrap from "../../assets/bootstrap.svg";
+import Bootstrap from "../../assets/Bootstrap.svg";
 import ReactJS from "../../assets/react.svg";
 import Tailwind from "../../assets/tailwindcss.svg";
 
