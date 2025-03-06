@@ -65,7 +65,7 @@ function Projects() {
       <TopSection heading5="My Recent Work" heading2="Portfolio" />
       <div className="container projects_container">
         {portfolioData.map(({ id, image, title, desc, github, demo }) => (
-          <article className="portfolio_item">
+          <article className="portfolio_item" key={id}>
             <div className="portfolio_item_img" key={id}>
               <img src={image} alt={`${title}`} />
               <div className="portfolio_overlay">
