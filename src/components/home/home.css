@@ -36,8 +36,9 @@
   position: absolute;
   right: -35px;
   bottom: 80px;
-  transform: rotate(90deg);  
-  font-weight: 300;
+}
+.scroll_down svg {
+  font-size: 2rem;
 }
 
 .home_socials {

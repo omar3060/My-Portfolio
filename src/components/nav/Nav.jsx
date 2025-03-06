@@ -49,9 +49,9 @@ function Nav() {
     return () => observer.disconnect();
   }, []);
   return (
-    <nav>
+    <nav >
       {navLinks.map(({ id, icon }) => (
-        <a
+        <a 
           key={id}
           href={id}
           className={activeNav === id ? "active" : ""}

@@ -3,6 +3,7 @@ import './home.css'
 import Me from '../../assets/me.webp'
 import CV from '../../assets/cv.pdf'
 import HomeSocials from './HomeSocials'
+import { FaArrowDown } from "react-icons/fa";
 
 
 function Home() {
@@ -21,7 +22,7 @@ function Home() {
         <div className="me">
           <img src={Me} alt="My pic" />
         </div>
-        <a href="#skills" className='scroll_down'>Scroll Down</a>
+        <a href="#skills" className='scroll_down' data-aos="fade-left"><FaArrowDown /></a>
         <HomeSocials />
       </div>
     </div>
