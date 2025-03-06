@@ -2,12 +2,11 @@ import React from "react";
 import "./skills.css";
 import TopSection from "../topSection/TopSection";
 
-import { BsPatchCheckFill } from "react-icons/bs";
 import Css from "../../assets/css3.svg";
 import NextJS from "../../assets/nextjs.svg";
 import Figma from "../../assets/figma.svg";
 import Javascript from "../../assets/javascript.svg";
-import Redux from "../../assets/redux.svg";
+import Redux from "../../assets/Redux.svg";
 import Bootstrap from "../../assets/bootstrap.svg";
 import ReactJS from "../../assets/react.svg";
 import Tailwind from "../../assets/tailwindcss.svg";
