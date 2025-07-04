@@ -7,10 +7,21 @@ import IMG3 from "../../assets/portfolio3.webp";
 import IMG4 from "../../assets/portfolio4.webp";
 import IMG5 from "../../assets/portfolio5.webp";
 import IMG6 from "../../assets/portfolio6.webp";
+import IMG7 from "../../assets/portfolio7.webp";
 
 const portfolioData = [
   {
     id: 1,
+    image: IMG7,
+    animate: false,
+    animation: "fade-left",
+    title: "SIDA POS Website",
+    desc: "NextJs, TailwindCSS, SSR, localization, responsive design, and more",
+    github: "https://github.com/omar3060/sida-website-caducs",
+    demo: "https://sida-website.vercel.app/en",
+  },
+  {
+    id: 2,
     image: IMG1,
     animate: true,
     animation: "fade-right",
@@ -20,7 +31,7 @@ const portfolioData = [
     demo: "https://regal-phoenix-dde71b.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     image: IMG2,
     animate: false,
     title: "React Dribble Design",
@@ -29,7 +40,7 @@ const portfolioData = [
     demo: "https://landing-page-task-react-v1.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: IMG3,
     animate: true,
     animation: "fade-left",
@@ -39,7 +50,7 @@ const portfolioData = [
     demo: "https://sparkly-paprenjak-760413.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: IMG4,
     animate: true,
     animation: "fade-right",
@@ -49,7 +60,7 @@ const portfolioData = [
     demo: "https://landing-tailwind-umber.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     image: IMG5,
     animate: false,
     title: "Native Landing Page",
@@ -58,7 +69,7 @@ const portfolioData = [
     demo: "https://shuffle-assignment-landing-page.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     image: IMG6,
     animate: true,
     animation: "fade-left",
